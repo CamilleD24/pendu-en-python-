@@ -4,14 +4,12 @@ import random
 nom = input("tapez votre nom: ")
 print ("Bonjour", nom, "!" "Prêt(e) à jouer?!")
 
-with open(r"C:\Users\loulo\Documents\cours\CESI\Cours étudiants\pendu\python\words.txt", "r") as files:
+with open(r".\words.txt", "r") as files:
     text = files.read()
     words = list(map(str, text.split()))
     mot = random.choice(words)
     print(mot)
  
- 
- #TEST
 
 tentative = -1
 lettrecaché = ["_" for _ in mot ]
