@@ -9,6 +9,8 @@ with open(r"C:\Users\loulo\Documents\cours\CESI\Cours étudiants\pendu\python\wo
     words = list(map(str, text.split()))
     mot = random.choice(words)
     print(mot)
+ 
+ 
  #TEST
 
 tentative = -1
